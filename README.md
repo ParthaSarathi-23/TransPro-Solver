@@ -1,37 +1,34 @@
-# TransPro-Solver
+# TransOptiSolver
 
-##Overview
-The TransProb Solver is a graphical user interface (GUI) application implemented in Python using the Tkinter library. It provides a convenient way to solve transportation problems using two different methods: Northwest Corner and Least Cost. The application takes user input for the number of sources, destinations, supplies, demands, and costs, and then calculates and displays the optimal allocations and total costs for both methods.
+## Overview
 
-##Features
-User-Friendly Interface: The application provides a clean and user-friendly interface to input transportation problem parameters.
+TransOptiSolver is a Python application that provides a graphical user interface (GUI) for solving transportation problems using different methods. It supports Northwest Corner and Least Cost methods, allowing users to input problem parameters and receive optimal allocations and total costs.
 
-Solver Methods: Supports two solution methods:
-                                              - *Northwest Corner*
-                                              - *Least Cost*
+## Features
 
-Results Display: The application displays the results in a scrolled text widget, showing the allocations matrix and total cost for each method.
+- **User-Friendly Interface:** Clean and intuitive interface for easy input of transportation problem parameters.
 
-Usage
-Run the application by executing the script TransPro.py.
+- **Solver Methods:** Supports Northwest Corner and Least Cost methods for problem-solving.
 
-Input the required information:
-                              - *Number of Sources*
-                              Number of Destinations
-                              Supplies (comma-separated)
-                              Demands (comma-separated)
-                              Costs (comma-separated, row-wise)
-                              Click the "Solve" button to calculate and display the results.
+- **Results Display:** Displays results in a scrolled text widget, presenting allocations matrix and total cost for each method.
 
-##Dependencies
-          - *Python 3.x*
-          - *Tkinter library*
+## Usage
 
-##Installation
-Make sure you have Python installed on your system.
+1. **Run the Application:**
+   - Execute the script `transportation_solver.py`.
+   
+2. **Input Information:**
+   - Number of Sources
+   - Number of Destinations
+   - Supplies (comma-separated)
+   - Demands (comma-separated)
+   - Costs (comma-separated, row-wise)
 
-Clone this repository to your local machine : git clone https://github.com/your-username/TransPro.git
+3. **Calculate Results:**
+   - Click the "Solve" button to calculate and display results.
 
-Change into the project directory : cd TransPro
+## Installation
 
-Run the application : python TransPro.py
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/transportation-problem-solver.git
