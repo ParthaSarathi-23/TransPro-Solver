@@ -1,8 +1,8 @@
-# TransOptiSolver
+# TransPro Solver
 
 ## Overview
 
-TransOptiSolver is a Python application that provides a graphical user interface (GUI) for solving transportation problems using different methods. It supports Northwest Corner and Least Cost methods, allowing users to input problem parameters and receive optimal allocations and total costs.
+TransPro Solver is a Python application that provides a graphical user interface (GUI) for solving transportation problems using different methods. It supports Northwest Corner and Least Cost methods, allowing users to input problem parameters and receive optimal allocations and total costs.
 
 ## Features
 
@@ -15,7 +15,7 @@ TransOptiSolver is a Python application that provides a graphical user interface
 ## Usage
 
 1. **Run the Application:**
-   - Execute the script `transportation_solver.py`.
+   - Execute the script `TransPro.py`.
    
 2. **Input Information:**
    - Number of Sources
@@ -27,8 +27,20 @@ TransOptiSolver is a Python application that provides a graphical user interface
 3. **Calculate Results:**
    - Click the "Solve" button to calculate and display results.
 
+## Dependencies
+
+- **Python 3.x**
+- **Tkinter library**
+
 ## Installation
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/transportation-problem-solver.git
+   git clone https://github.com/your-username/TransPro.git
+2. **Change Directory:**
+   ```bash
+   cd TransPro
+3. **Run the Application:**
+   ```bash
+   python TransPro.py
+
