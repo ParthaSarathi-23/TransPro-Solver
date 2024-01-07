@@ -15,14 +15,14 @@ TransPro Solver is a Python application that provides a graphical user interface
 ## Usage
 
 1. **Run the Application:**
-   - Execute the script `TransPro.py`.
+   - **Execute the script `TransPro.py`.**
    
 2. **Input Information:**
-   - Number of Sources
-   - Number of Destinations
-   - Supplies (comma-separated)
-   - Demands (comma-separated)
-   - Costs (comma-separated, row-wise)
+   - **Number of Sources**
+   - **Number of Destinations**
+   - **Supplies (comma-separated)**
+   - **Demands (comma-separated)**
+   - **Costs (comma-separated, row-wise)**
 
 3. **Calculate Results:**
    - Click the "Solve" button to calculate and display results.
